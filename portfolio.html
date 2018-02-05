@@ -1,71 +1,59 @@
-<!docutype <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style-p.css" />
+    <script src="main.js"></script>
 </head>
 <body>
 
         <nav>
 
-            <div id="nav">
+            <div id="navbar">
+
                 <h1>Andy Ho</h1> 
 
                 <ul class="topright">
-                        <li id="about"><a href="index.html">About</a></li>
-                        <li id="Porfolio"><a href="portfolio.html">Portfolio</a> </li>
-                        <li id="Contact"><a href="contact.html">Contact</a></li>
+                        <li class="about"><a href="index.html">About</a></li>
+                        <li class="porfolio-nav"><a href="portfolio.html">Portfolio</a> </li>
+                        <li class="contact"><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
 
         </nav>
 
-     <section class="main-body">
+<div class="wrapper">
+     <div class="container">
                 
-            <div class="mainsectioncontent-portfolio">       
-                    <h2 id="Portfolio">Portfolio</h2>
+            <div class="leftsection">     
+
+                    <h2 id="portfolio">Portfolio</h2>
 
                        <hr>
 
                        <div class="Carpics">
 
-                            
-
-                                <img id="lambo" src="assets/images/lambo.jpg" alt="Lambo" border=0 width="250px"
-                                lenght=200px>
-                                
-
-                        
-                                <img id="ferrari" src="assets/images/ferrari.jpg" alt="Ferrari" border=0 width="250px"
-                                lenght=200px>
-                                
-
-
-                            
-                                <img id="bugatti" src="assets/images/bugatti.jpg" alt="Bugatti" border=0 width="250px"
-                                lenght=200px>
-                              
-                        
-                       
-
-                           
-                                <img id="porsche" src="assets/images/porsche.jpg" alt="Porsche" border=0 width="250px"
-                                lenght=200px>
-                              
-
+                            <div id=lambo><h3>Lamborghini</h3></div>
+                            <div id=ferrari><h3>Ferrari</h3></div>
+                            <div id=bugatti><h3>Bugatti</h3></div>
+                            <div id=porsche><h3>Porsche</h3></div>
 
                         </div>
             </div>
 
        
 
-            <div class="Social-portfolio">
+            <div class="sidebar">
 
                     <h2 id="Connect">Connect with Me</h2>
 
                     <hr>
+                
+                <div class=social>
                     
                     <a id="Linkedin" href="https://www.linkedin.com" target="_blank">
                         <img border="0" alt="LinkedIn" src="assets/images/linkedin.png" width="70" height="70">
@@ -73,14 +61,18 @@
                     
                     <a id="Facebook" href="https://www.facebook.com" target="_blank">
                             <img border="0" alt="FaceBook" src="assets/images/facebook.png" width="70" height="70">
-                            </a>
+                    </a>
+
                     <a id="GitHub" href="https://www.github.com" target="_blank" >
                         <img border="0" alt="Github" src="assets/images/github.png" width="70" height="70">
-                        </a>
+                    </a>
+                
+                </div>
                 
             </div>
     
-        </section>
+        </div>
+    </div>
 
     <footer>
          Copyright &copy; 2018 Andy Ho
